@@ -48,7 +48,7 @@
     line-height: 105px;
     font-size: 1.5em;
     color: #FFF;
-    font-weight: regular;
+    font-weight: normal;
     border: solid white 8px;
     font-family: Anton, sans-serif;
 
@@ -148,27 +148,80 @@
 
 
 
-@media screen and (min-width:576px) {
+@media screen and (min-width:776px) {
+    .logo-bg {
+        height: 60px;
+        margin-top: 25px;
+    }
+
+    .circle {
+        height: 125px;
+        width: 125px;
+        border-radius: 50%;
+        line-height: 105px;
+        font-size: 1.5em;
+        color: #FFF;
+        font-weight: normal;
+        border: solid white 8px;
+        font-family: Anton, sans-serif;
+    }
+
     .red-circle {
         background-color: #E6563B;
-        margin: 0;
-        margin-left: calc(100%-5em);
+        margin-left: 35px;
+        margin-right: 10px;
 
     }
     .orange-circle {
         background-color: #EB9D3A;
-        margin: 0;
+        margin-leftt: 0px;
+        margin-right: 10px;
 
     }
     .green-circle {
         background-color: #7CB06C;
-        margin: 0;
+        margin-left: 0px;
+        margin-right: 10px;
 
     }
     .blue-circle {
         background-color: #00ABA9;
-        margin: 0;
-        margin-right: calc(100%-5em)
+        margin-left: 0px;
+
+    }
+    .picture-cont {
+        margin-top: 20px;
+        height: 300px;
+        margin-left: 10px;
+        padding: 0px;
+    }
+    .jpegs {
+        height: 220px;
+        width: 300px;
+        padding: 0px;
+        margin-left: 25px;
+        margin-top: 45px;
+    }
+    .one-featured {
+        position: relative;
+        top: -265px;
+        right: -25px;
+    }
+    .two-featured {
+        position: relative;
+        top: -306px;
+        right: -355px;
+    }
+    .three-featured {
+        position: relative;
+        top: -80px;
+        right: -25px;
+    }
+    .four-featured {
+        position: relative;
+        top: -120px;
+        right: -354px;
+    }
 
 }
 
