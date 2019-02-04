@@ -42,33 +42,37 @@
 
 }
 .circle {
-    height: 200px;
-    width: 200px;
+    height: 125px;
+    width: 125px;
     border-radius: 50%;
-    line-height: 175px;
-    font-size: 2em;
+    line-height: 105px;
+    font-size: 1.5em;
     color: #FFF;
     font-weight: regular;
-    border: solid white 12px;
+    border: solid white 8px;
     font-family: Anton, sans-serif;
     margin-top: 15px;
-    /*margin-left: 2em;*/
+
 
 }
 .red-circle {
     background-color: #E6563B;
+    margin-left: 40px;
 
 }
 .orange-circle {
     background-color: #EB9D3A;
+    margin-right: 40px;
 
 }
 .green-circle {
     background-color: #7CB06C;
+    margin-left: 40px;
 
 }
 .blue-circle {
     background-color: #00ABA9;
+    margin-right: 40px;
 
 }
 
@@ -105,4 +109,14 @@
 .circle-test p {
     vertical-align: middle;
     display: table-cell;
+}
+.logo {
+    border-radius: 50%;
+    position: relative;
+    top: -20px;
+
+}
+.logo-bg {
+    height: 60px;
+    margin-top: 25px;
 }
