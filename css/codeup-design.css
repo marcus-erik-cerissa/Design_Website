@@ -42,13 +42,18 @@
 
 }
 .circle {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
-    line-height: 250px;
+    line-height: 175px;
     font-size: 2em;
     color: #FFF;
-    font-weight: bold;
+    font-weight: regular;
+    border: solid white 12px;
+    font-family: Anton, sans-serif;
+    margin-top: 15px;
+    /*margin-left: 2em;*/
+
 }
 .red-circle {
     background-color: #E6563B;
@@ -67,3 +72,9 @@
 
 }
 
+
+.button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
