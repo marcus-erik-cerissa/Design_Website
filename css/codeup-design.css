@@ -39,8 +39,8 @@
 
 .font-anton {
     font-family: 'Anton', sans-serif;
-
 }
+
 .circle {
     height: 125px;
     width: 125px;
@@ -52,20 +52,17 @@
     border: solid white 8px;
     font-family: Anton, sans-serif;
 
-
-
 }
+
 .red-circle {
     background-color: #E6563B;
     margin-left: 40px;
     margin-top: 15px;
-
 }
 .orange-circle {
     background-color: #EB9D3A;
     margin-right: 40px;
     margin-top: 15px;
-
 }
 .green-circle {
     background-color: #7CB06C;
@@ -79,37 +76,22 @@
     margin-top: 15px;
     margin-bottom: 70px;
 }
+
+/*-- Small circles --*/
 .red-small-circle {
     background-color: #E6563B;
-
 
 }
 .orange-small-circle {
     background-color: #EB9D3A;
-
-
 }
 .green-small-circle {
     background-color: #7CB06C;
-
-
 }
 .blue-small-circle {
     background-color: #00ABA9;
-
-
-}
-/*TEST*/
-.px-18 {
-    width: 18px;
-    height: 18px;
 }
 
-.block-test {
-    /*border: 1px solid red;*/
-    text-align: center;
-    vertical-align: middle;
-}
 .small-circle {
     min-height: 18px;
     max-width: 18px;
@@ -117,21 +99,55 @@
     line-height: 40px;
     color: #000;
     font-family: Anton, sans-serif;
-
-
-
 }
-.circle-test p {
-    vertical-align: middle;
-    display: table-cell;
-}
+
+/*.px-18 {*/
+    /*width: 18px;*/
+    /*height: 18px;*/
+/*}*/
+
+/*.block-test {*/
+    /*!*border: 1px solid red;*!*/
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+/*}*/
+
+/*.circle-test p {*/
+    /*vertical-align: middle;*/
+    /*display: table-cell;*/
+/*}*/
+
+
+
 .logo {
     border-radius: 50%;
     position: relative;
     top: -20px;
-
 }
+
 .logo-bg {
     height: 60px;
     margin-top: 25px;
 }
+
+
+
+@media (min-width: 576px) {
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+}
+
+
+@media screen and (min-width:992px) {
+
+}
+
