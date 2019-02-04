@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Anton');
 
 /*body {*/
-    /*background: #F0F0F0;*/
+/*background: #F0F0F0;*/
 /*}*/
 
 /*header img {*/
-    /*width: 50px;*/
-    /*height: 50px;*/
+/*width: 50px;*/
+/*height: 50px;*/
 /*}*/
 
 .redish {
@@ -77,4 +77,32 @@
     height: 100px;
     width: 100px;
     border-radius: 50%;
+}
+
+
+/*TEST*/
+.px-18 {
+    width: 18px;
+    height: 18px;
+}
+
+.block-test {
+    /*border: 1px solid red;*/
+    text-align: center;
+    vertical-align: middle;
+}
+.circle-test {
+    background: red;
+    border-radius: 200px;
+    color: white;
+    height: 200px;
+    font-weight: bold;
+    width: 200px;
+    display: table;
+    /*margin: 20px auto;*/
+    border: 10px solid black
+}
+.circle-test p {
+    vertical-align: middle;
+    display: table-cell;
 }
