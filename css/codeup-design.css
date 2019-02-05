@@ -40,7 +40,9 @@
 .font-anton {
     font-family: 'Anton', sans-serif;
 }
-
+.header-text{
+    font-size: 64px;
+}
 .circle {
     height: 125px;
     width: 125px;
@@ -141,10 +143,6 @@
         margin-top: 25px;
     }
 
-    .logo_text {
-
-    }
-
     .circle {
         height: 125px;
         width: 125px;
@@ -228,8 +226,8 @@
 
     .logo_text {
         position: relative;
-        top: -20px;
-        right: 200px;
+        top: -80px;
+        right: 225px;
     }
 
     .red-circle {
@@ -241,6 +239,10 @@
         background-color: #00ABA9;
         margin-left: 0px;
         margin-right: 200px;
+    }
+    .px-50 {
+        height: 50px
+
     }
 
 }
