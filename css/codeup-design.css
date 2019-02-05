@@ -101,28 +101,12 @@
     font-family: Anton, sans-serif;
 }
 
-/*.px-18 {*/
-    /*width: 18px;*/
-    /*height: 18px;*/
-/*}*/
-
-/*.block-test {*/
-    /*!*border: 1px solid red;*!*/
-    /*text-align: center;*/
-    /*vertical-align: middle;*/
-/*}*/
-
-/*.circle-test p {*/
-    /*vertical-align: middle;*/
-    /*display: table-cell;*/
-/*}*/
-
-
 
 .logo {
     border-radius: 50%;
     position: relative;
     top: -20px;
+    margin: auto;
 }
 
 .logo-bg {
@@ -135,7 +119,6 @@
 
 }
 
-
 @media (max-width: 576px) {
 
     hr {
@@ -144,14 +127,22 @@
 
 }
 
-
-
-
-
 @media screen and (min-width:776px) {
+
+    .logo {
+        border-radius: 50%;
+        position: relative;
+        top: -20px;
+        margin: auto;
+    }
+
     .logo-bg {
         height: 60px;
         margin-top: 25px;
+    }
+
+    .logo_text {
+
     }
 
     .circle {
@@ -168,13 +159,13 @@
 
     .red-circle {
         background-color: #E6563B;
-        margin-left: 35px;
+        margin-left: 100px;
         margin-right: 10px;
 
     }
     .orange-circle {
         background-color: #EB9D3A;
-        margin-leftt: 0px;
+        margin-left: 0px;
         margin-right: 10px;
 
     }
@@ -187,7 +178,7 @@
     .blue-circle {
         background-color: #00ABA9;
         margin-left: 0px;
-
+        margin-right: 100px;
     }
     .picture-cont {
         margin-top: 20px;
@@ -227,6 +218,30 @@
 
 
 @media screen and (min-width:992px) {
+
+    .logo {
+        border-radius: 50%;
+        position: relative;
+        top: -20px;
+        right: 400px;
+    }
+
+    .logo_text {
+        position: relative;
+        top: -20px;
+        right: 200px;
+    }
+
+    .red-circle {
+        background-color: #E6563B;
+        margin-left: 200px;
+        margin-right: 10px;
+    }
+    .blue-circle {
+        background-color: #00ABA9;
+        margin-left: 0px;
+        margin-right: 200px;
+    }
 
 }
 
